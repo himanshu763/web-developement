@@ -1,0 +1,36 @@
+/* a:link {
+    color: #e3c1d8;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+   color: rgb(251, 215, 221);
+   background-color: transparent;
+   text-decoration: none;
+}
+  
+a:hover {
+   color: red;
+   background-color: transparent;
+   text-decoration: underline;
+}
+  
+a:active {
+   color: yellow;
+   background-color: transparent;
+   text-decoration: underline;
+}
+.part1{
+   background-color: #790252;
+   height: 10rem;
+   width: 100%;
+   padding: 0rem;
+}
+.block{
+   display: inline-block;
+}
+.navi{
+   padding-left: 10px;
+   padding-right: 10px;
+} */

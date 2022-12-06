@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="file.xsl"?> 
+ 
+ 
+<menu> 
+    <food number="No1"> 
+        <name>Chole Bhature</name> 
+        <price>Rs.50</price> 
+        <description>2 bhature with chole ki sabzi ka saath</description> <calories>750</calories> 
+    </food> 
+    <food number="No2"> 
+        <name>Momos</name> 
+        <price>Rs.30</price> 
+        <description>6 momos in one plate</description> 
+        <calories>450</calories> 
+    </food> 
+    <food number="No3"> 
+        <name>Sandwich</name> 
+        <price>Rs.60</price> 
+        <description>Crispy Sandwich with green chutney</description> <calories>940</calories> 
+    </food> 
+    <food number="No4"> 
+        <name>Parantha</name> 
+        <price>Rs.30</price> 
+        <description>Crispy Prantha with green chutney and pickel</description> 
+        <calories>1000</calories>
+    </food> 
+</menu> 
+ 	 
+ 
+ 
+ 
+ 

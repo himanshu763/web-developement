@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="folder.dtd" type="application/xml-dtd"?>
+ 
+<menu> 
+   <food> 
+      <name>Chole Bhature</name> 
+      <price>Rs.70</price> 
+      <description>2 bhature with chole ki sabzi ka saath</description> <calories>750</calories> 
+   </food> 
+   <food> 
+      <name>Momos</name> 
+      <price>Rs.30</price> 
+      <description>6 momos in one plate</description> 
+      <calories>450</calories> 
+   </food> 
+   <food> 
+      <name>Sandwich</name> 
+      <price>Rs.60</price> 
+      <description>Crispy Sandwich with green chutney</description> <calories>940</calories> 
+   </food> 
+   <food> 
+      <name>Parantha</name> 
+      <price>Rs.30</price> 
+      <description>Crispy Prantha with green chutney and pickel</description> <calories>1000</calories> 
+   </food> 
+</menu>

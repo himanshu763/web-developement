@@ -1,0 +1,55 @@
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+ 
+    <head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Resturant</title> 
+    <link rel="stylesheet" href="style.css"> 
+    </head> 
+    
+    
+    <body> 
+    
+    
+        <h1>Welcome to the Campus Cafe</h1> 
+        <h2>This is our menu:</h2> 
+        
+        
+        <button type="button" onclick="loadXMLDoc()">Get menu</button> 
+        
+        <p id="demo"></p> 
+        
+        
+        <script> 
+            function loadXMLDoc() { 
+                var xmlhttp = new XMLHttpRequest(); 
+                xmlhttp.onreadystatechange = function () { 
+                if (this.readyState == 4 && this.status == 200) { 
+                    myFunction(this); 
+                } }; 
+                xmlhttp.open("GET", "folder.xml", true); xmlhttp.send(); 
+            } 
+            
+            
+            function myFunction(xml) { 
+                var x, i, xmlDoc, txt; xmlDoc = xml.responseXML; 
+                txt = ""; 
+                x = xmlDoc.getElementsByTagName("name"); y = xmlDoc.getElementsByTagName("price"); 
+                for (i = 0; i < x.length; i++) { 
+                    txt += x[i].childNodes[0].nodeValue + " - Price of the item is " + 
+                    y[i].childNodes[0].nodeValue + "<br>"; 
+                } 
+                document.getElementById("demo").innerHTML = txt; 
+            } 
+        </script> 
+        
+    
+    
+    </body> 
+ 
+ 
+</html>
